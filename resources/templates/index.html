@@ -1,0 +1,15 @@
+<html>
+<body>
+Hello! {{userName}}!
+<br>
+<br>
+<form action="/logout" method="post">
+    <button type="submit">Logout</button>
+</form>
+<ol>
+    {{#messages}}
+    <li>{{userName}}</li>
+    {{/messages}}
+</ol>
+</body>
+</html>
